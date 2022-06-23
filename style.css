@@ -1,0 +1,73 @@
+body
+{
+    margin: auto;
+    background-color: #252422;
+    color: white;
+    font-family: 'Roboto', sans-serif;;
+}
+header
+{
+    margin: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+section
+{
+    background-color: #403d39;
+    margin: 25px auto;
+    padding: 10px;
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ccc5b9;
+    border-radius: 5px;
+}
+input
+{
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc5b9;
+    border-radius: 5px;
+    background-color: #252422;
+    color: white;
+}
+.senha
+{
+    display: flex;
+    justify-content: space-between;
+}
+.botao
+{
+    margin: auto 0;
+    color: white;
+    background-color: #eb5e28;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botao:hover
+{
+    background: #ccc5b9;
+}
+.registrar
+{
+    text-align: center;
+}
+footer
+{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+a
+{
+    color: #007ea7;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover
+{
+    text-decoration: underline;
+}
